@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7258A3E9258DA2AF00B55DD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7258A3E8258DA2AF00B55DD8 /* AppDelegate.swift */; };
+		7258A3EB258DA2AF00B55DD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7258A3EA258DA2AF00B55DD8 /* ViewController.swift */; };
+		7258A3ED258DA2B200B55DD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7258A3EC258DA2B200B55DD8 /* Assets.xcassets */; };
+		7258A3F0258DA2B200B55DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7258A3EE258DA2B200B55DD8 /* Main.storyboard */; };
+		7258A404258DA89800B55DD8 /* com.tanhuang.dk1.dext in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 7269BE49258C89570070FE25 /* com.tanhuang.dk1.dext */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7269BE50258C89570070FE25 /* dk1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7269BE4F258C89570070FE25 /* dk1.cpp */; };
+		7269BE52258C89570070FE25 /* dk1.iig in Sources */ = {isa = PBXBuildFile; fileRef = 7269BE51258C89570070FE25 /* dk1.iig */; };
+		7269BE64258C8B9B0070FE25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269BE63258C8B9B0070FE25 /* AppDelegate.m */; };
+		7269BE67258C8B9B0070FE25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269BE66258C8B9B0070FE25 /* ViewController.m */; };
+		7269BE69258C8B9E0070FE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7269BE68258C8B9E0070FE25 /* Assets.xcassets */; };
+		7269BE6C258C8B9E0070FE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7269BE6A258C8B9E0070FE25 /* Main.storyboard */; };
+		7269BE6F258C8B9E0070FE25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7269BE6E258C8B9E0070FE25 /* main.m */; };
+		7269BE76258C8CF00070FE25 /* com.tanhuang.dk1.dext in Embed System Extensions */ = {isa = PBXBuildFile; fileRef = 7269BE49258C89570070FE25 /* com.tanhuang.dk1.dext */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7269BE8A258CA1FA0070FE25 /* USBDriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269BE89258CA1FA0070FE25 /* USBDriverKit.framework */; };
+		7269BE8C258CA20C0070FE25 /* DriverKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7269BE8B258CA20C0070FE25 /* DriverKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7258A405258DA89800B55DD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7269BE40258C89570070FE25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7269BE48258C89570070FE25;
+			remoteInfo = dk1;
+		};
+		7269BE77258C8CF00070FE25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7269BE40258C89570070FE25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7269BE48258C89570070FE25;
+			remoteInfo = dk1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7258A407258DA89800B55DD8 /* Embed System Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SYSTEM_EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				7258A404258DA89800B55DD8 /* com.tanhuang.dk1.dext in Embed System Extensions */,
+			);
+			name = "Embed System Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269BE79258C8CF00070FE25 /* Embed System Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(SYSTEM_EXTENSIONS_FOLDER_PATH)";
+			dstSubfolderSpec = 16;
+			files = (
+				7269BE76258C8CF00070FE25 /* com.tanhuang.dk1.dext in Embed System Extensions */,
+			);
+			name = "Embed System Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7258A3E6258DA2AF00B55DD8 /* dkload1_swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dkload1_swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7258A3E8258DA2AF00B55DD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7258A3EA258DA2AF00B55DD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7258A3EC258DA2B200B55DD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7258A3EF258DA2B200B55DD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7258A3F1258DA2B200B55DD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7258A3F2258DA2B200B55DD8 /* dkload1_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dkload1_swift.entitlements; sourceTree = "<group>"; };
+		7269BE49258C89570070FE25 /* com.tanhuang.dk1.dext */ = {isa = PBXFileReference; explicitFileType = "wrapper.driver-extension"; includeInIndex = 0; path = com.tanhuang.dk1.dext; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269BE4F258C89570070FE25 /* dk1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = dk1.cpp; sourceTree = "<group>"; };
+		7269BE51258C89570070FE25 /* dk1.iig */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.iig; path = dk1.iig; sourceTree = "<group>"; };
+		7269BE53258C89570070FE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7269BE54258C89570070FE25 /* dk1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dk1.entitlements; sourceTree = "<group>"; };
+		7269BE60258C8B9B0070FE25 /* dkload1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dkload1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7269BE62258C8B9B0070FE25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7269BE63258C8B9B0070FE25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7269BE65258C8B9B0070FE25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7269BE66258C8B9B0070FE25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7269BE68258C8B9E0070FE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7269BE6B258C8B9E0070FE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7269BE6D258C8B9E0070FE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7269BE6E258C8B9E0070FE25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7269BE70258C8B9E0070FE25 /* dkload1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dkload1.entitlements; sourceTree = "<group>"; };
+		7269BE89258CA1FA0070FE25 /* USBDriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = USBDriverKit.framework; path = System/DriverKit/System/Library/Frameworks/USBDriverKit.framework; sourceTree = SDKROOT; };
+		7269BE8B258CA20C0070FE25 /* DriverKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DriverKit.framework; path = System/DriverKit/System/Library/Frameworks/DriverKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7258A3E3258DA2AF00B55DD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269BE46258C89570070FE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269BE8C258CA20C0070FE25 /* DriverKit.framework in Frameworks */,
+				7269BE8A258CA1FA0070FE25 /* USBDriverKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269BE5D258C8B9B0070FE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7258A3E7258DA2AF00B55DD8 /* dkload1_swift */ = {
+			isa = PBXGroup;
+			children = (
+				7258A3E8258DA2AF00B55DD8 /* AppDelegate.swift */,
+				7258A3EA258DA2AF00B55DD8 /* ViewController.swift */,
+				7258A3EC258DA2B200B55DD8 /* Assets.xcassets */,
+				7258A3EE258DA2B200B55DD8 /* Main.storyboard */,
+				7258A3F1258DA2B200B55DD8 /* Info.plist */,
+				7258A3F2258DA2B200B55DD8 /* dkload1_swift.entitlements */,
+			);
+			path = dkload1_swift;
+			sourceTree = "<group>";
+		};
+		7269BE3F258C89570070FE25 = {
+			isa = PBXGroup;
+			children = (
+				7269BE4E258C89570070FE25 /* dk1 */,
+				7269BE61258C8B9B0070FE25 /* dkload1 */,
+				7258A3E7258DA2AF00B55DD8 /* dkload1_swift */,
+				7269BE4B258C89570070FE25 /* Frameworks */,
+				7269BE4A258C89570070FE25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7269BE4A258C89570070FE25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7269BE49258C89570070FE25 /* com.tanhuang.dk1.dext */,
+				7269BE60258C8B9B0070FE25 /* dkload1.app */,
+				7258A3E6258DA2AF00B55DD8 /* dkload1_swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7269BE4B258C89570070FE25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7269BE8B258CA20C0070FE25 /* DriverKit.framework */,
+				7269BE89258CA1FA0070FE25 /* USBDriverKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7269BE4E258C89570070FE25 /* dk1 */ = {
+			isa = PBXGroup;
+			children = (
+				7269BE4F258C89570070FE25 /* dk1.cpp */,
+				7269BE51258C89570070FE25 /* dk1.iig */,
+				7269BE53258C89570070FE25 /* Info.plist */,
+				7269BE54258C89570070FE25 /* dk1.entitlements */,
+			);
+			path = dk1;
+			sourceTree = "<group>";
+		};
+		7269BE61258C8B9B0070FE25 /* dkload1 */ = {
+			isa = PBXGroup;
+			children = (
+				7269BE62258C8B9B0070FE25 /* AppDelegate.h */,
+				7269BE63258C8B9B0070FE25 /* AppDelegate.m */,
+				7269BE65258C8B9B0070FE25 /* ViewController.h */,
+				7269BE66258C8B9B0070FE25 /* ViewController.m */,
+				7269BE68258C8B9E0070FE25 /* Assets.xcassets */,
+				7269BE6A258C8B9E0070FE25 /* Main.storyboard */,
+				7269BE6D258C8B9E0070FE25 /* Info.plist */,
+				7269BE6E258C8B9E0070FE25 /* main.m */,
+				7269BE70258C8B9E0070FE25 /* dkload1.entitlements */,
+			);
+			path = dkload1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7269BE44258C89570070FE25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7258A3E5258DA2AF00B55DD8 /* dkload1_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7258A3F3258DA2B200B55DD8 /* Build configuration list for PBXNativeTarget "dkload1_swift" */;
+			buildPhases = (
+				7258A3E2258DA2AF00B55DD8 /* Sources */,
+				7258A3E3258DA2AF00B55DD8 /* Frameworks */,
+				7258A3E4258DA2AF00B55DD8 /* Resources */,
+				7258A407258DA89800B55DD8 /* Embed System Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7258A406258DA89800B55DD8 /* PBXTargetDependency */,
+			);
+			name = dkload1_swift;
+			productName = dkload1_swift;
+			productReference = 7258A3E6258DA2AF00B55DD8 /* dkload1_swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7269BE48258C89570070FE25 /* dk1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269BE57258C89570070FE25 /* Build configuration list for PBXNativeTarget "dk1" */;
+			buildPhases = (
+				7269BE44258C89570070FE25 /* Headers */,
+				7269BE45258C89570070FE25 /* Sources */,
+				7269BE46258C89570070FE25 /* Frameworks */,
+				7269BE47258C89570070FE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dk1;
+			productName = dk1;
+			productReference = 7269BE49258C89570070FE25 /* com.tanhuang.dk1.dext */;
+			productType = "com.apple.product-type.driver-extension";
+		};
+		7269BE5F258C8B9B0070FE25 /* dkload1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7269BE71258C8B9E0070FE25 /* Build configuration list for PBXNativeTarget "dkload1" */;
+			buildPhases = (
+				7269BE5C258C8B9B0070FE25 /* Sources */,
+				7269BE5D258C8B9B0070FE25 /* Frameworks */,
+				7269BE5E258C8B9B0070FE25 /* Resources */,
+				7269BE79258C8CF00070FE25 /* Embed System Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7269BE78258C8CF00070FE25 /* PBXTargetDependency */,
+			);
+			name = dkload1;
+			productName = dkload1;
+			productReference = 7269BE60258C8B9B0070FE25 /* dkload1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7269BE40258C89570070FE25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7258A3E5258DA2AF00B55DD8 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7269BE48258C89570070FE25 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					7269BE5F258C8B9B0070FE25 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7269BE43258C89570070FE25 /* Build configuration list for PBXProject "dk1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7269BE3F258C89570070FE25;
+			productRefGroup = 7269BE4A258C89570070FE25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7269BE48258C89570070FE25 /* dk1 */,
+				7269BE5F258C8B9B0070FE25 /* dkload1 */,
+				7258A3E5258DA2AF00B55DD8 /* dkload1_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7258A3E4258DA2AF00B55DD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7258A3ED258DA2B200B55DD8 /* Assets.xcassets in Resources */,
+				7258A3F0258DA2B200B55DD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269BE47258C89570070FE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269BE5E258C8B9B0070FE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269BE69258C8B9E0070FE25 /* Assets.xcassets in Resources */,
+				7269BE6C258C8B9E0070FE25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7258A3E2258DA2AF00B55DD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7258A3EB258DA2AF00B55DD8 /* ViewController.swift in Sources */,
+				7258A3E9258DA2AF00B55DD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269BE45258C89570070FE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269BE52258C89570070FE25 /* dk1.iig in Sources */,
+				7269BE50258C89570070FE25 /* dk1.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7269BE5C258C8B9B0070FE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7269BE67258C8B9B0070FE25 /* ViewController.m in Sources */,
+				7269BE6F258C8B9E0070FE25 /* main.m in Sources */,
+				7269BE64258C8B9B0070FE25 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7258A406258DA89800B55DD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7269BE48258C89570070FE25 /* dk1 */;
+			targetProxy = 7258A405258DA89800B55DD8 /* PBXContainerItemProxy */;
+		};
+		7269BE78258C8CF00070FE25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7269BE48258C89570070FE25 /* dk1 */;
+			targetProxy = 7269BE77258C8CF00070FE25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7258A3EE258DA2B200B55DD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7258A3EF258DA2B200B55DD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7269BE6A258C8B9E0070FE25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7269BE6B258C8B9E0070FE25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7258A3F4258DA2B200B55DD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_ENTITLEMENTS = dkload1_swift/dkload1_swift.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = dkload1_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanhuang.dkload1-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7258A3F5258DA2B200B55DD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_ENTITLEMENTS = dkload1_swift/dkload1_swift.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = dkload1_swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tanhuang.dkload1-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7269BE55258C89570070FE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				DRIVERKIT_DEPLOYMENT_TARGET = 20.2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = driverkit;
+			};
+			name = Debug;
+		};
+		7269BE56258C89570070FE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				DRIVERKIT_DEPLOYMENT_TARGET = 20.2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = driverkit;
+			};
+			name = Release;
+		};
+		7269BE58258C89570070FE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = dk1/dk1.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/DriverKit/System/Library/Frameworks",
+				);
+				INFOPLIST_FILE = dk1/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhuang.dk1;
+				PRODUCT_NAME = "$(inherited)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7269BE59258C89570070FE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = dk1/dk1.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				ENABLE_HARDENED_RUNTIME = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/DriverKit/System/Library/Frameworks",
+				);
+				INFOPLIST_FILE = dk1/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhuang.dk1;
+				PRODUCT_NAME = "$(inherited)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7269BE72258C8B9E0070FE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_ENTITLEMENTS = /Users/huion/Documents/driverKit/Test/dk1/dkload1/dkload1.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = dkload1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhuang.dkload1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7269BE73258C8B9E0070FE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_ENTITLEMENTS = /Users/huion/Documents/driverKit/Test/dk1/dkload1/dkload1.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VNC4J8J6U6;
+				ENABLE_HARDENED_RUNTIME = NO;
+				INFOPLIST_FILE = dkload1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tanhuang.dkload1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7258A3F3258DA2B200B55DD8 /* Build configuration list for PBXNativeTarget "dkload1_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7258A3F4258DA2B200B55DD8 /* Debug */,
+				7258A3F5258DA2B200B55DD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269BE43258C89570070FE25 /* Build configuration list for PBXProject "dk1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269BE55258C89570070FE25 /* Debug */,
+				7269BE56258C89570070FE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269BE57258C89570070FE25 /* Build configuration list for PBXNativeTarget "dk1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269BE58258C89570070FE25 /* Debug */,
+				7269BE59258C89570070FE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7269BE71258C8B9E0070FE25 /* Build configuration list for PBXNativeTarget "dkload1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7269BE72258C8B9E0070FE25 /* Debug */,
+				7269BE73258C8B9E0070FE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7269BE40258C89570070FE25 /* Project object */;
+}
